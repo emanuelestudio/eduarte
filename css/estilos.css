@@ -1,0 +1,215 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+   font-family: 'Quicksand', sans-serif;
+}
+
+
+ul { list-style: none;
+
+}
+
+
+.cabecera{
+    background-color: rgb(49, 103, 165);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    box-shadow: 2px 10px 19px rgb(65, 64, 64);
+}
+.contenedor {
+    
+     max-width: 80% ;
+     margin: 0px auto;
+     display:  flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+.navegacion_lista{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.caja_div_navegacion{
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.caja_de_navegacion{
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    padding: 20px;
+    
+}
+.navegacion_enlace {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+   
+    font-weight: 600
+
+}
+
+.logo {
+    padding-left: 10px;
+    display: flex;
+    width: 230px;
+     height: 60px;
+}
+
+.hero{
+    background-color: gray;
+    height: 500px;
+    width: 100%;
+    background-size: none;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+
+
+@font-face {
+    font-family: pincel;
+    src: url('../fonts/quicksand-variablefont_wght.ttf')
+    
+}
+
+#fuente{ 
+    font-family: pincel;} 
+
+.titulo_principal{ 
+    
+    background-color:rgb(49, 103, 165) ;
+    padding: 40px;
+    border: 10px solid gray;
+    font-size: 50px;
+    opacity: 1.0;
+    color:white;
+}
+
+
+.main_seccion{
+    background-color: rgb(49, 103, 165) ;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    padding-right:  20px;
+
+}
+
+
+.contenido{
+    width: 50%;
+}
+
+.banner1{
+
+display: block;
+max-width: 350px ;
+margin: 0 auto;
+}
+
+
+.titulobanner1{
+
+    font-size: 45px;
+    color: white;
+    margin-bottom: 35px;
+
+}
+
+.parrafobanner1{
+    color: white;
+    margin-bottom: 35px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.boton{
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 20px;
+    font-weight:600;
+
+}
+
+
+.nuestros_servicios{
+    padding: 64px 32px;
+   
+}
+
+.nuestros_servicios_titulo{
+   text-align: right ;
+   color: rgb(49, 103, 165);
+   font-size: 34px;
+   margin-bottom: 64px;
+
+}
+
+.servicios{ 
+    display: flex;
+    gap: 20px;
+    justify-content:space-evenly;
+    text-align: center;
+
+}
+
+.servicios_a {
+    text-decoration: none;
+    color: black;
+}
+
+.servicios123{
+ background-color: rgb(100, 194, 237);
+ padding: 16px;
+ width: 100%;
+ max-width: 300px;
+
+}
+
+.servicios_iconos{
+ font-size: 50px;
+ background-color: rgb(169, 215, 252);
+max-width: 100px;
+display: inline-block;
+border-radius: 50%;
+padding: 20px;
+
+
+
+
+}
+
+
+
+footer{ 
+    background-color: rgb(49, 103, 165) }
+
+.eduarte{
+    font-size: 30px;
+
+}
+
+.derechos{
+    display: flex;
+    color: white;
+    background-color:gray ;
+    justify-content: center;
+
+
+}
