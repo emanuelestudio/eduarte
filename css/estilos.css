@@ -77,7 +77,9 @@ ul { list-style: none;
     align-items: center;}
 
 
-
+#portada{
+    background-image: url(../portada/fondo\ back\ dezlizar2.jpg);
+}
 
 @font-face {
     font-family: pincel;
@@ -169,12 +171,12 @@ margin: 0 auto;
 
 }
 
-.servicios_a {
+.servicios a {
     text-decoration: none;
     color: black;
 }
 
-.servicios123{
+.servicio {
  background-color: rgb(100, 194, 237);
  padding: 16px;
  width: 100%;
@@ -185,13 +187,17 @@ margin: 0 auto;
 .servicios_iconos{
  font-size: 50px;
  background-color: rgb(169, 215, 252);
-max-width: 100px;
+padding: 10px;
 display: inline-block;
 border-radius: 50%;
-padding: 20px;
+color: rgb(49, 103, 165);
+
+}
 
 
-
+.servicio_titulo{
+font-size: 24px;
+margin: 16px 0;
 
 }
 
@@ -211,5 +217,5 @@ footer{
     background-color:gray ;
     justify-content: center;
 
-
 }
+
