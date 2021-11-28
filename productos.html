@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>EduArte</title> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Zeyada&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body > 
+<body style=" font-family: 'Quicksand', sans-serif;" > 
     <header class="cabecera">  <!--encabezado-->
 
         <nav class="navegacion_lista">
@@ -24,9 +25,7 @@
                 <ul class="caja_de_navegacion" >
                     <li > <a class="navegacion_enlace" href="index.html" >Inicio </a>
                     </li>
-                    <li><a class="navegacion_enlace" href="enseñando.html">Enseñando Arte</a>
-                    </li>
-                    <li><a class="navegacion_enlace" href="noticias.html">Noticias</a>
+                    <li><a class="navegacion_enlace" href="enseñando.html">Talleres </a>
                     </li>
                     <li><a class="navegacion_enlace" href="productos.html"> Productos</a>
                     </li>
@@ -35,49 +34,87 @@
                  </ul>
             </div>
         </nav>
-        
-       
-  
-     </header>
+
+    </header>
 
      <main>
-        <section  class= "hero" style="background-image: url(portada/manchas\ para\ obras3.jpg)">
-            <h1 id="fuente" class="titulo_principal">Cuadros y Obras</h1>
-        </section>
+        <section class="hero" id="portada">
+            <h1  class="titulo_principal">Obras</h1>
+        </section >
+        <Section class="productos-obras">
+            <div class="container">
+                <!-- Content here -->
+                <h2 class="titulo_producto_servicio" > Galeria de Arte</h2>
+                <div class="row productos-obras">
+                    <div class="col-12 col-md-4" >
+                        <div class="card" style="width: 18rem;">
+                            <img src="productos/mancha 1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Abstracto 1</h5>
+                              <p class="card-text"> Monocromatico</p>
+                              <a href="#" class="btn btn-primary"> Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                     <div class="col-12 col-md-4" >
+                         <div class="card" style="width: 18rem;">
+                                <img src="productos/mancha 2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Abstracto 2</h5>
+                                  <p class="card-text"> Colores primarios</p>
+                                  <a href="#" class="btn btn-primary"> Comprar</a>
+                                </div>
+                         </div>
+                    </div>  
+                    <div class="col-12 col-md-4" >
+                        <div class="card" style="width: 18rem;">
+                               <img src="productos/mancha 3.jpg" class="card-img-top" alt="...">
+                               <div class="card-body">
+                                 <h5 class="card-title text-center">Abstracto 3</h5>
+                                 <p class="card-text"> Grises y anaranjado</p>
+                                 <a href="#" class="btn btn-primary"> Comprar</a>
+                               </div>
+                        </div>
+                   </div>  
+                </div>   
+                <div class="row">
+                    <div class="col-12 col-md-4" >
+                        <div class="card" style="width: 18rem;">
+                            <img src="productos/mancha 4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Abstracto 4</h5>
+                              <p class="card-text"> Colores Analogos.</p>
+                              <a href="#" class="btn btn-primary"> Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                     <div class="col-12 col-md-4" >
+                         <div class="card" style="width: 18rem;">
+                                <img src="productos/mancha 5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title text-center">Abstracto 2</h5>
+                                  <p class="card-text"> Manchas </p>
+                                  <a href="#" class="btn btn-primary"> Comprar</a>
+                                </div>
+                         </div>
+                    </div>  
+                    <div class="col-12 col-md-4" >
+                        <div class="card" style="width: 18rem;">
+                               <img src="productos/mancha 6.jpg" class="card-img-top" alt="...">
+                               <div class="card-body">
+                                 <h5 class="card-title text-center">Flores </h5>
+                                 <p class="card-text">  Técnicas con acuarelas</p>
+                                 <a href="#" class="btn btn-primary"> Comprar</a>
+                               </div>
+                        </div>
+                   </div>  
+                </div>  
+            </div>
+
+        </Section>
         
-        <article><!--Obra 1-->
-            <h2> Otoño en el amanecer</h2>
-    
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, minus omnis non autem beatae facilis accusamus modi natus iste nihil, eos qui nostrum neque rem quo praesentium voluptate libero quae.</p>
-                    <img src="obras/mancha 1.jpg" alt="No imagen" width="400" height="250">
-                </div> 
-        </article>
-        <article><!--Obra 2-->
-            <h2> Sombra y luz</h2>
-    
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, minus omnis non autem beatae facilis accusamus modi natus iste nihil, eos qui nostrum neque rem quo praesentium voluptate libero quae.</p>
-                    <img src="obras/mancha 2.jpg" alt="No imagen" width="400" height="250">
-                </div> 
-        </article>
-        <article><!--Obra 3-->
-            <h2> Mujer bajo la lluvia</h2>
-    
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, minus omnis non autem beatae facilis accusamus modi natus iste nihil, eos qui nostrum neque rem quo praesentium voluptate libero quae.</p>
-                    <img src="obras/mancha 3.jpg" alt="No imagen" width="400" height="250"> 
-                </div> 
-        </article>
-        <article><!--Obra 4-->
-            <h2> Comiendo en la hierva</h2>
-    
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, minus omnis non autem beatae facilis accusamus modi natus iste nihil, eos qui nostrum neque rem quo praesentium voluptate libero quae.</p>
-                    <img src="obras/mancha 4.jpg" alta="No imagen" width="400" height="250">
-                </div> 
-        </article>
-    </main>
+        
+    </main >
 
     <footer class=" footer" > <!--pie de pagina-->
         <h2 class="footer_titulo"> EduArte</h2>
@@ -112,5 +149,6 @@
          </div>
     </div>
     </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

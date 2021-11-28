@@ -1,12 +1,12 @@
+/* Index */
 *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body { 
-   font-family: 'Quicksand', sans-serif;
-}
+body {font-family: 'Quicksand', sans-serif;
+   }
 
 
 ul { list-style: none;
@@ -81,11 +81,9 @@ ul { list-style: none;
     background-image: url(../portada/fondo\ back\ dezlizar2.jpg);
 }
 
-@font-face {
-    font-family: pincel;
-    src: url('../fonts/quicksand-variablefont_wght.ttf')
+
     
-}
+
 
 #fuente{ 
     font-family: pincel;} 
@@ -211,6 +209,7 @@ height: 500px;
 
 }
 
+main { background-color: white;}
 
 .banner_video_titulo{
 font-size:  40px;
@@ -276,9 +275,6 @@ color: white;
 
 }
 
-
-
-
  
 /* Fijar elemento de whatsapp */
 
@@ -307,5 +303,15 @@ transition: all 1s;
 width: 90px;
 height: 80px;
 
+}
+
+/* Boostrap */
+
+.productos-obras { 
+    padding-top: 54px;
+    padding-bottom: 54px; }
+.titulo_producto_servicio{
+    font-size: 40px;
+    margin-bottom: 32px;
 }
 
