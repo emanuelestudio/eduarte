@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>EduArte</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Zeyada&display=swap" rel="stylesheet">
+</head>
+<body > 
+    <header class="cabecera">  <!--encabezado-->
+
+        <nav class="navegacion_lista">
+
+            <div >
+                <img class="logo" src="portada/logo en blanco.png" alt="no imagen">
+            </div>   
+
+            <div class="caja_div_navegacion">
+
+                <ul class="caja_de_navegacion" >
+                    <li > <a class="navegacion_enlace" href="index.html" >Inicio </a>
+                    </li>
+                    <li><a class="navegacion_enlace" href="enseñando.html">Talleres </a>
+                    </li>
+                    <li><a class="navegacion_enlace" href="productos.html"> Productos</a>
+                    </li>
+                    <li><a class="navegacion_enlace" href="contacto.html">Contacto</a>
+                    </li>
+                 </ul>
+            </div>
+        </nav>
+        
+       
+  
+     </header>
+
+
+<main>
+    <section class="hero" id="portada">
+        <h1  class="titulo_principal">Contacto </h1>
+    </section>
+    
+    <form action="" method="POST" enctype="">
+        <fieldset>
+            <legend> Suscribase</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <divs>
+                <label for="apellido" >Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="ingresar tu apellido">
+
+            </divs>
+            <div> 
+            <label for= "telefono"> Telefono</label>
+            <input type="tel" name= "telefono" id="telefono" placeholder="Ingresa tu Telefono">
+
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name=numero id="edad" placeholder="Puedes ingresar solo numeros ">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+            <label for="correo"> Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo">
+        </div>
+        <div> 
+            <label for="clave">clave</label>
+            <input type="radio" name="clave" value="clave" id="Ingresa tu clave">
+        </div>
+        </fieldset>
+        
+        <Fieldset>
+            <Legend> Datos de genero</Legend>
+             <div>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="hombre" id="hombre">
+        </div>
+            
+        <div>
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="genero" value="mujer" id="mujer">
+        </div>
+
+        </Fieldset>
+        <div>
+            <label for="aceptar">Aceptar terminos</label>
+            <input type="checkbox" name="acepta" value="1" id="aceptar" >
+
+        </div>
+        <div>
+            <Label id="seccionEspecifica" for="cuadros" >Cuadros Disponibles </Label>
+            <select name="cuadros" id="cuadros">
+                <option value="L">Large</option> 
+                <option value= "M">Medium </option>
+                <option value="S"> Small </option>
+            </select>
+        </div>
+        <div>
+            <label for="comentario" comentario></label>
+            <textarea name="comentario" id="comentario" placeholder="Ingresa tu comentario" cols="50" rows="10"></textarea>
+        </div>
+        <input type="submit" value="enviar">
+        <button>Enviar</button>
+
+        <input type="reset" value="Limpiar">
+
+
+    </form>
+
+
+
+
+</main>
+<footer class=" footer" > <!--pie de pagina-->
+    <h2 class="footer_titulo"> EduArte</h2>
+
+    <p>Google Chat: <a  class="footer_enlace" href=""></a> </p>
+    <p>Whatsap <a  class="footer_enlace" href="" > +54 297 5123456 </a></a></p>
+
+<div class="footer_flex_padre">
+    <div>
+        <h3 class="footer_subtitulo">Enlace de Interes</h3>
+        <ul>
+             <li><a class="footer_enlace" href="https://fnartes.gob.ar/" target="_blank"> Pagina oficial del Fondo Nacional de las Artes</a></li>
+             <li><a class="footer_enlace" href="https://artedelaargentina.com/" target="_blank"> Arte de Argentina</a></li>
+            </ul>
+        </ul> 
+    </div>    
+
+
+    <div>
+         <h3 class="footer_subtitulo">Redes Sociales</h3>
+         <ul>
+        <li><a class="footer_enlace" href="https://www.facebook.com/" target="_blank"> Facebook</a></li>
+        <li><a class="footer_enlace" href="https://twitter.com/home" target="_blank" > Twitter</a></li>
+        <li><a class="footer_enlace" href="https://www.instagram.com/?hl=es" target="_blank"> instagram</a></li>
+        
+        </ul>
+    </div>
+</div> 
+<div > 
+     <div class="footer_copy">
+         <p>Todos los Derechos Reservados - Lascano Emanuel - 18 de septiembre de 2021</p>
+     </div>
+</div>
+</footer> 
+</body>
+</html>
